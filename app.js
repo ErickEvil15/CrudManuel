@@ -68,7 +68,7 @@ app.get('/getLista',async(req,res)=>{
             i++
             jueguitosHTML+= `
                             <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/logoComedor/infamous.png" />
-                            <div class="card-body info"><button class="btn btn-primary overlay" type="button"><i class="fas fa-plus"></i> Agregar pago</button>
+                            <div class="card-body info"><button class="btn btn-primary overlay" type="button"><i class="fas fa-plus"></i> Pendiente</button>
                                 <h4 class="card-title">${jueguitos.nombre}</h4>
                                 <h4 class="card-title" style="color: var(--bs-code-color);">${jueguitos.tematica}</h4>
                             </div>
