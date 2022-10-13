@@ -114,10 +114,10 @@ app.get('/getLista',async(req,res)=>{
                     <div class="row">
                         <div class="col-xl-9 mx-auto">
                             <div class="text-center cta-inner rounded">
-                                <h2 class="section-heading mb-5"><span class="section-heading-upper">Come On In</span><span class="section-heading-lower">We're Open</span></h2>
+                                <h2 class="section-heading mb-5"><span class="section-heading-upper">Vamos</span><span class="section-heading-lower">Acábalos todos</span></h2>
                                 <section class="clean-block about-us">
                                     <div class="container" style="text-align: center;">
-                                        <h1>Historial de Compras de Lotes</h1>
+                                        <h1>Videjuegos en la lista</h1>
                                     </div>
                                     <div class="row justify-content-center" style="margin-top: 10px;margin-right: 0px;margin-left: 0px;">
                                         <div class="col-sm-6 col-lg-4" style="margin-top: 35px;">
