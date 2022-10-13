@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>About us - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/Login-Red.css">
+    <link rel="stylesheet" href="assets/css/Ludens---5-Multiple-Cards-inside-Show-v2.css">
+    <link rel="stylesheet" href="assets/css/Modal-Login-form.css">
+    <link rel="stylesheet" href="assets/css/News-Cards-4-Columns-v2.css">
+</head>
+
+<body style="background:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('assets/img/bg.jpg');">
+    <h1 class="text-center text-white d-none d-lg-block site-heading"><span class="text-primary site-heading-upper mb-3"><br><strong>¿JUEGAN CONTIGO COMO SI FUERAS VIDEOJUEGO?</strong><br></span><span class="site-heading-lower"><br>ORDEN GAMER<br></span></h1>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-lg-4" id="mainNav">
+        <div class="container"><a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Brand</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Ordenar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eliminar.html">eLIMINAR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="actualizar.html">aCTUALIZAR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/getLista">cONSULTAR</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="page-section about-heading">
+        <div class="container"><img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about.jpg">
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-9 mx-auto">
+                        <div class="bg-faded rounded p-5 mb-sm-0 pb-sm-0 mt-sm-0 pt-sm-4">
+                            <h2 class="section-heading mb-4"><span class="section-heading-upper">Aquí eliminas los juegos que hayas terminado</span><span class="section-heading-lower me-sm-0 pe-sm-0">Acabaste muy rapido ¿no?</span></h2>
+                            <p></p>
+                            <div id="myModal">
+                                <div class="modal-dialog modal-login"></div>
+                                <section class="position-relative py-4 py-xl-5">
+                                    <div class="container">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-md-6 col-xl-4">
+                                                <div class="card mb-5">
+                                                    <div class="card-body d-flex flex-column align-items-center">
+                                                        <form class="text-center" method="post" action="/eliminarJuego">
+                                                            <div class="mb-3"><input class="form-control" type="text" name="juego" placeholder="Juego"></div>
+                                                            <div class="mb-3"></div>
+                                                            <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit">Eliminar</button></div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <p class="mb-0"><span></span><span></span><span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center footer text-faded py-5">
+        <div class="container">
+            <p class="m-0 small">Copyright&nbsp;©&nbsp;Brand 2022</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/current-day.js"></script>
+</body>
+
+</html>

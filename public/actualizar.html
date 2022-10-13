@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Products - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/Login-Red.css">
+    <link rel="stylesheet" href="assets/css/Ludens---5-Multiple-Cards-inside-Show-v2.css">
+    <link rel="stylesheet" href="assets/css/Modal-Login-form.css">
+    <link rel="stylesheet" href="assets/css/News-Cards-4-Columns-v2.css">
+</head>
+
+<body style="background:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('assets/img/bg.jpg');">
+    <h1 class="text-center text-white d-none d-lg-block site-heading"><span class="text-primary site-heading-upper mb-3"><br><strong>¿JUEGAN CONTIGO COMO SI FUERAS VIDEOJUEGO?</strong><br></span><span class="site-heading-lower"><br>ORDEN GAMER<br><br></span></h1>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-lg-4" id="mainNav">
+        <div class="container"><a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Brand</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Ordenar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eliminar.html">eLIMINAR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="actualizar.html">aCTUALIZAR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/getLista">cONSULTAR</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="page-section">
+        <div class="container">
+            <div class="product-item">
+                <div class="d-flex product-item-title">
+                    <div class="d-flex me-auto bg-faded p-5 rounded pe-sm-0 me-sm-5">
+                        <h2 class="section-heading mb-0"><span class="section-heading-upper">No sabías como escribirlo ¿verdad?</span><span class="section-heading-lower">Pues corrigue tu error</span></h2>
+                    </div>
+                    <div class="d-flex me-auto bg-faded p-5 rounded">
+                        <div id="myModal">
+                            <div class="modal-dialog modal-login">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="h4 modal-title">Actualiza</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="/actualizarJuego" method="post">
+                                            <div class="form-group"><i class="fa fa-star fa-user"></i><input class="form-control" type="text" placeholder="Nombre" required="required" name="nombre"></div>
+                                            <div class="form-group"><i class="fa fa-star fa-lock"></i><input class="form-control" type="text" placeholder="Nombre actualizado" required="required" name="nombreA"></div>
+                                            <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit" value="Login">Actualizar</button></div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="section-heading mb-0"></h2>
+                    </div>
+                </div><img class="img-fluid d-flex mx-auto product-item-img mb-3 mb-lg-0 rounded" src="assets/img/products-01.jpg">
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/current-day.js"></script>
+</body>
+
+</html>
